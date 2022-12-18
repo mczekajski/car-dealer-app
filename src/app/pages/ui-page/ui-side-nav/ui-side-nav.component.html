@@ -1,2 +1,14 @@
-<p>ui-side-nav works!</p>
-{{ path }}
+<a
+  class="link"
+  [ngClass]="{ 'is-active': path == '/ui/typography' }"
+  routerLink="/ui/typography"
+>
+  typography
+</a>
+<a
+  class="link"
+  [ngClass]="{ 'is-active': path == '/ui/colors' }"
+  routerLink="/ui/colors"
+>
+  colors
+</a>

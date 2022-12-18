@@ -6,3 +6,19 @@
   color: $cl-white;
   padding: 12px;
 }
+
+.link {
+  color: $cl-grayAC;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 4px 0;
+
+  &:hover:not(.is-active) {
+    color: $cl-grayD8;
+  }
+}
+
+.is-active {
+  color: $cl-white;
+  cursor: default;
+}
