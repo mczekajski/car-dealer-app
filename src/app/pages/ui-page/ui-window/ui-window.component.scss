@@ -1,0 +1,22 @@
+@import 'src/styles/global.scss';
+
+.window {
+  font: 500 32px/40px $font-primary;
+  width: 1050px;
+
+  &-title {
+    background: $cl-blue05;
+    color: $cl-white;
+    width: 100%;
+    padding: 20px 100px;
+  }
+
+  &-body {
+    padding: 80px 100px;
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    background: $cl-grayE9;
+    width: 100%;
+  }
+}

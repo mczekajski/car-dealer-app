@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~normalize.css';
+@import 'src/styles/global.scss';
 
 @font-face {
   font-family: 'Montserrat';
@@ -8,4 +9,8 @@
 
 * {
   box-sizing: border-box;
+}
+
+body {
+  font-family: $font-primary;
 }

@@ -1,0 +1,8 @@
+@import 'src/styles/global.scss';
+
+:host {
+  width: 240px;
+  min-width: 240px;
+  color: $cl-white;
+  padding: 12px;
+}
