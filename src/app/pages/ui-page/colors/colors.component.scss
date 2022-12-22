@@ -1,0 +1,48 @@
+@import 'src/styles/global.scss';
+
+.color-sample {
+  display: flex;
+  flex-direction: column;
+
+  &-code {
+    font: 500 16px/24px $font-primary;
+    margin-top: 14px;
+  }
+
+  &-tile {
+    width: 146px;
+    height: 146px;
+
+    &.cl-blue11 {
+      background: $cl-blue11;
+    }
+
+    &.cl-blue22 {
+      background: $cl-blue22;
+    }
+
+    &.cl-blue25 {
+      background: $cl-blue25;
+    }
+
+    &.cl-white {
+      background: $cl-white;
+    }
+
+    &.cl-grayF7 {
+      background: $cl-grayF7;
+    };
+
+    &.cl-gray6F {
+      background: $cl-gray6F;
+    }
+
+    &.cl-grayAC {
+      background: $cl-grayAC;
+    }
+
+    &.cl-grayD8 {
+      background: $cl-grayD8;
+    }
+  }
+}

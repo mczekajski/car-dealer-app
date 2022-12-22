@@ -1,0 +1,16 @@
+@import 'src/styles/global.scss';
+
+.ui-page {
+  display: flex;
+}
+
+.side-nav {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: $cl-blue25;
+}
+
+.page-content {
+  padding: 64px;
+}
