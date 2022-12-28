@@ -1,15 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { BrowserService } from 'src/app/shared/browser.service';
 
 @Component({
   selector: 'app-colors',
   templateUrl: './colors.component.html',
-  styleUrls: ['./colors.component.scss']
+  styleUrls: ['./colors.component.scss'],
 })
-export class ColorsComponent implements OnInit {
+export class ColorsComponent {
+  constructor(private browserService: BrowserService) {}
 
-  constructor() { }
-
-  ngOnInit(): void {
+  public copyToClipBoard(text: string): void {
+    this.browserService.copyToClipboard(text);
   }
-
 }

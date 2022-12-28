@@ -16,5 +16,6 @@ import { TypographyComponent } from './typography/typography.component';
     TypographyComponent,
   ],
   imports: [CommonModule, RouterModule],
+  exports: [UiPageComponent],
 })
 export class UiPageModule {}
