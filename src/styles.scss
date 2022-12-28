@@ -2,25 +2,44 @@
 @import '~normalize.css';
 @import 'src/styles/global.scss';
 
-@font-face {
-  font-family: 'Montserrat';
-  src: url('../src/assets/fonts/Montserrat/Montserrat-Regular.ttf');
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: url('../src/assets/fonts/Roboto/Roboto-Regular.ttf');
-}
-
-@font-face {
-  font-family: 'Oxanium';
-  src: url('../src/assets/fonts/Oxanium/Oxanium-Regular.ttf');
-}
-
 * {
   box-sizing: border-box;
 }
 
 body {
   font-family: $font-primary;
+}
+
+// Montserrat
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../src/assets/fonts/Montserrat/Montserrat-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../src/assets/fonts/Montserrat/Montserrat-Medium.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../src/assets/fonts/Montserrat/Montserrat-Bold.ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+// Roboto
+@font-face {
+  font-family: 'Roboto';
+  src: url('../src/assets/fonts/Roboto/Roboto-Regular.ttf');
+}
+
+// Oxanium
+@font-face {
+  font-family: 'Oxanium';
+  src: url('../src/assets/fonts/Oxanium/Oxanium-Regular.ttf');
 }

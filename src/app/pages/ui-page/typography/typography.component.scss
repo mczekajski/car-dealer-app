@@ -1,11 +1,28 @@
 @import 'src/styles/global.scss';
 
+.window {
+  width: 1440px !important;
+}
+
 table {
   width: 100%;
 }
 
+th, td {
+  text-align: left;
+  padding: 4px;
+}
+
 th {
   font: 600 16px/19px 'Roboto', sans-serif;
-  text-align: left;
+}
+
+td {
+  font: 300 16px/19px 'Roboto', sans-serif;
+  width: calc(80%/5)
+}
+
+td:first-of-type {
+  width: calc(20%)
 }
 
