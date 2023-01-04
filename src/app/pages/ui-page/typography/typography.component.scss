@@ -19,10 +19,18 @@ th {
 
 td {
   font: 300 16px/19px 'Roboto', sans-serif;
-  width: calc(80%/5)
+  width: calc(75%/5)
 }
 
 td:first-of-type {
-  width: calc(20%)
+  width: calc(25%)
+}
+
+.blue {
+  color: $cl-blue11;
+}
+
+.white {
+  color: $cl-white;
 }
 
