@@ -1,0 +1,48 @@
+@import 'src/styles/global.scss';
+
+.window {
+  width: 1440px !important;
+}
+
+table {
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px 4px;
+}
+
+th {
+  font: 600 16px/19px 'Roboto', sans-serif;
+}
+
+td {
+  font: 300 16px/19px 'Roboto', sans-serif;
+  width: calc(75%/5)
+}
+
+td:first-of-type {
+  width: calc(25%)
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.blue11 {
+  color: $cl-blue11;
+}
+
+.gray6F {
+  color: $cl-gray6F;
+}
+
+.grayAC {
+  color: $cl-grayAC;
+}
+
+.white {
+  color: $cl-white;
+}
+

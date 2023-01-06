@@ -1,0 +1,69 @@
+// reset
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  font-weight: normal;
+}
+
+// headings
+.is-heading-1 {
+  font: bold 64px/78px $font-primary;
+  color: $cl-white;
+}
+
+.is-heading-2 {
+  font: 600 36px/45px $font-secondary;
+  color: $cl-blue25;
+}
+
+.is-heading-3 {
+  font: 600 36px/45px $font-primary;
+  color: $cl-blue25;
+}
+
+.is-heading-4 {
+  font: 600 32px/39px $font-primary;
+  color: $cl-blue25;
+}
+
+.is-heading-5 {
+  font: 600 20px/24px $font-primary;
+  color: $cl-blue25;
+}
+
+.is-heading-6 {
+  font: 500 20px/24px $font-primary;
+  color: $cl-blue25;
+}
+
+.is-heading-7 {
+  font: 400 20px/24px $font-primary;
+  color: $cl-blue25;
+}
+
+// subtitles
+.is-subtitle-1 {
+  font: 500 16px/20px $font-primary;
+  color: $cl-grayAC;
+}
+
+.is-subtitle-2 {
+  font: 500 16px/20px $font-primary;
+  color: $cl-blue25;
+}
+
+.is-body-1 {
+  font: 400 16px/20px $font-primary;
+  color: $cl-blue25;
+}
+
+.is-body-1 {
+  font: 400 16px/20px $font-primary;
+  color: $cl-blue25;
+}
+
+.is-body-2 {
+  font: 400 14px/17px $font-primary;
+  color: $cl-blue25;
+}
