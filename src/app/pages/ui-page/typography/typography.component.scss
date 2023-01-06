@@ -10,7 +10,7 @@ table {
 
 th, td {
   text-align: left;
-  padding: 4px;
+  padding: 8px 4px;
 }
 
 th {
@@ -26,8 +26,20 @@ td:first-of-type {
   width: calc(25%)
 }
 
-.blue {
+.underline {
+  text-decoration: underline;
+}
+
+.blue11 {
   color: $cl-blue11;
+}
+
+.gray6F {
+  color: $cl-gray6F;
+}
+
+.grayAC {
+  color: $cl-grayAC;
 }
 
 .white {
