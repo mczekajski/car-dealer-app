@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { BrowserService } from 'src/app/shared/browser.service';
-import { MatSnackBar, MatSnackBarRef } from '@angular/material/snack-bar';
+import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Component({
   selector: 'app-colors',
