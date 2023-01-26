@@ -1,0 +1,12 @@
+@import 'src/styles/global.scss';
+
+.hero {
+  position: relative;
+  background-image: url("/assets/images/car_image.png");
+  background-color: $cl-grayF7;
+  height: 1024px;
+  max-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
