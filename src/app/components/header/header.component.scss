@@ -31,4 +31,18 @@ ul.menu {
       color: $cl-white;
       cursor: pointer;
     }
+
+    li:after {
+      content: "";
+      display: block;
+      height: 2px;
+      width: 0;
+      background: $cl-white;
+      transition: width .4s;
+    }
+
+    li:hover:after {
+      width: 100%;
+    }
+
 }
