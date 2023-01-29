@@ -1,6 +1,7 @@
 @import 'src/styles/global.scss';
 
 .hero {
+  position: relative;
   background-image: url("/assets/images/car_image.png");
   background-color: $cl-grayF7;
   height: 1024px;
@@ -19,20 +20,20 @@
   padding: 40px 120px;
 }
 
-ul.menu {
+.menu {
     display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
 
-    li {
+    a {
       margin-left: 40px;
       font: 400 16px/24px $font-primary;
       color: $cl-white;
       cursor: pointer;
     }
 
-    li:after {
+    a:after {
       content: "";
       display: block;
       height: 2px;
@@ -41,8 +42,15 @@ ul.menu {
       transition: width .4s;
     }
 
-    li:hover:after {
+    a:hover:after {
       width: 100%;
     }
+}
 
+h1.is-heading-1 {
+ display: block;
+ position: absolute;
+ top: 40%;
+ width: 650px;
+ margin-left: 120px;
 }
