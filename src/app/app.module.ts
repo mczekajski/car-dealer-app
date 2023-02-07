@@ -14,6 +14,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FiltersComponent } from './components/catalog/filters/filters.component';
 import { CarCardComponent } from './components/catalog/car-card/car-card.component';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { CarCardComponent } from './components/catalog/car-card/car-card.compone
     AppRoutingModule,
     UiPageModule,
     BrowserAnimationsModule,
+    SharedModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
