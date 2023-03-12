@@ -1,0 +1,25 @@
+@import 'src/styles/global.scss';
+
+:host {
+  display: block;
+  background: $cl-white;
+  width: 387px;
+  height: 470px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.car-card-image {
+  max-width: 100%;
+}
+
+.main-data {
+  display: flex;
+  width: 100%;
+  padding: 16px;
+}
+
+.price {
+  display: block;
+  margin-left: auto;
+}

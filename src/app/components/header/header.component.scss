@@ -1,0 +1,56 @@
+@import 'src/styles/global.scss';
+
+.hero {
+  position: relative;
+  background-image: url("/assets/images/car_image.png");
+  background-color: $cl-grayF7;
+  height: 1024px;
+  max-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 280px;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba($cl-gray6F, 0.05);
+  padding: 40px 120px;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    a {
+      margin-left: 40px;
+      font: 400 16px/24px $font-primary;
+      color: $cl-white;
+      cursor: pointer;
+    }
+
+    a:after {
+      content: "";
+      display: block;
+      height: 2px;
+      width: 0;
+      background: $cl-white;
+      transition: width .4s;
+    }
+
+    a:hover:after {
+      width: 100%;
+    }
+}
+
+h1.is-heading-1 {
+ display: block;
+ position: absolute;
+ top: 40%;
+ width: 650px;
+ margin-left: 120px;
+}

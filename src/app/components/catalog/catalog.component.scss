@@ -1,0 +1,19 @@
+@import 'src/styles/global.scss';
+
+:host {
+  display: block;
+  width: 100%;
+  padding: 60px 120px;
+  background: $cl-grayF7;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.is-heading-2 {
+  margin-bottom: 8px;
+}
+
+.offers {
+  display: flex;
+  justify-content: space-between;
+}
